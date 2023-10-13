@@ -1,0 +1,22 @@
+html{
+    background-color:rgb(181,214,146);
+}
+#exe,#stop{
+    height:300px;
+    width:30%;
+    margin-right:100px;
+}
+#tab {
+    border-collapse: collapse;
+    width: 60%; /* Adjust the width as needed */
+    margin: 0; /* Center the table on the page */
+}
+
+#tab th, #tab td {
+    border: 1px solid black; /* Add a 1px black border to table cells */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+#tab th {
+    background-color: #f2f2f2; /* Add a light background color to table headers */
+}
