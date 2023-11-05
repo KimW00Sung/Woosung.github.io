@@ -3,50 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자기소개 페이지</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Woosung Chat-GPT Bot</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="name">
-        <h1>1. 이름 : 김우성</h1>
-    </div>
+    <div class="container">
+        <div class="header">
+            <h3>WS Chat-GPT Bot</h3>
+        </div>
+        <div class="info">
+            <a href="https://kimw00sung.github.io/haedal_front/" target="_blank">Woosung page</a>
+            <div class="chat-container">
+                <div id="chat-log">
 
-    <div id="my_info">
-        <h1>2. 자기 소개</h1>
-        <table id="tab">
-            <thead>
-                <tr>
-                    <th colspan="2">my_info</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>학교</td>
-                    <td>학과</td>
-                </tr>
-                <tr>
-                    <td>경북대</td>
-                    <td>컴퓨터학부</td>
-                </tr>
-            </tbody>
-        </table>
+                </div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Send a message">
+            <button id="send-button">
+                <i class="fa-solid fa-paper-plane" id="button-icon"></i>
+            </button>
+        </div>
     </div>
-
-    <div id="imgs">
-        <h1>3.좋아하는 사진 2장</h1>
-        <img id ="exe" src="./exercise.jpg">
-        <img id="stop" src="./asd.jpg">
-    </div>
-
-    <div>
-        <h1 class="forte">4.특기</h1>
-        <p style="font-size:20px;">달리기</p>
-    </div>
-
-    <div>
-        <h1>5.장단점 1가지씩</h1>
-        <p>장점 : 한번 꽂힌일은 될때까지 하려고한다</p>
-        <p>단점 : 꽂히는 일이 잘없다</p>
-    </div>
+    <script src="https://kit.fontawesome.com/e3b0fac2cc.js" 
+    crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
